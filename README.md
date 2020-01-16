@@ -1,28 +1,39 @@
-# Backend for:
-https://github.com/MBartl/Well-Read
+# Well-Read-Back
 
+## About
 
-# README
+This project lets users look for books through googlebooks api, add/remove found books to a favorites list and add/remove tags to those books once on the favorites list.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the back end portion to https://github.com/melonybox/Well-Read-Front.<br>
+Back end portion should be started first.
 
-Things you may want to cover:
+This portion uses:<br>
+ruby<br>
+rails<br>
+postgresql<br>
+activerecord<br>
+serializers<br>
+rack-cors<br>
+jwt<br>
+bcrypt<br>
 
-* Ruby version
+## How To Start
 
-* System dependencies
+In the project directory, you can run:
 
-* Configuration
+### `bundle install`
 
-* Database creation
+To ensure all the required packages are installed for this project.
 
-* Database initialization
+### `rails db:migrate`
 
-* How to run the test suite
+To create the schema needed.
 
-* Services (job queues, cache servers, search engines, etc.)
+### `rails db:seed`
 
-* Deployment instructions
+To seed the db with current needed info.
 
-* ...
+### `rails s`
+
+Runs the app.<br>
+Ensure it is ran as [http://localhost:3000](http://localhost:3000).
