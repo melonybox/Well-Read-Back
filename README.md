@@ -29,10 +29,6 @@ To ensure all the required packages are installed for this project.
 
 To create the schema needed.
 
-### `rails db:seed`
-
-To seed the db with current needed info.
-
 ### `rails s`
 
 Runs the app.<br>
